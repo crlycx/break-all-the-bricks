@@ -1,0 +1,66 @@
+* {
+  padding: 0; margin: 0;
+}
+
+body {
+  background-image: linear-gradient(135deg, #621055, #b52b65);
+}
+
+canvas {
+  background: #ed6663;
+  border-radius: 15px;
+  display: block;
+  margin: 0 auto;
+}
+
+/* #myCanvas {
+
+} */
+
+#game-container {
+  margin: 3% auto 0;
+  height: 440px;
+  max-width: 600px
+}
+
+.heading {
+  text-align: center;
+  margin-top: 2%;
+}
+
+.heading h1 {
+  font-size: 4rem;
+  color: #eee;
+  font-family: 'Bebas Neue', cursive;
+}
+
+.heading p {
+  color: #ccc;
+  padding: 0;
+}
+
+footer {
+  background-color: #eee;
+}
+
+/* falling snow CSS */
+
+#snowflakeContainer {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    display: none;
+  }
+
+  .snowflake {
+    position: fixed;
+    background-color: #CCC;
+    user-select: none;
+    z-index: 1000;
+    pointer-events: none;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+  }
+
+/* end falling snow css */
